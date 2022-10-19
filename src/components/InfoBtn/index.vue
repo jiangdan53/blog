@@ -42,7 +42,6 @@ export default {
         scrollTop(type){
             if(type === 'xianxia'){
             if(this.isRoutet){
-                console.log('向上')
                 this.$bus.$emit('setMainscroll',0 - this.contentDom.scrollTop)
             }else{
                 this.$bus.$emit('setMainscroll',this.contentDom.scrollHeight - this.contentDom.scrollTop)

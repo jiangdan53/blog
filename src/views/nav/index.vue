@@ -89,7 +89,7 @@ export default {
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.1);
   visibility: hidden;
-  z-index: 1001;
+  z-index: 1002;
   &.showLbofy {
     visibility: visible;
   }

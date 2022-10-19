@@ -129,7 +129,7 @@ export default {
     }
    
     .menu {
-      z-index: 101;
+      z-index: 1001;
       position: fixed;
       top: 10px;
       left: 10px;
