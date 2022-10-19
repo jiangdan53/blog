@@ -69,6 +69,7 @@ export default {
          let isHistory = JSON.parse(window.localStorage.getItem(`${this.$route.params.blogtype}`))
        if((isHistory && window.history.state ) && window.history.state.key === isHistory.historyKey){
         this.target = 0
+        console.log('sss')
          await Delay(500);
         this.$bus.$emit('setMainscroll',isHistory.scrollTop)
         }else{
